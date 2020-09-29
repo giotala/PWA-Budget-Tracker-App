@@ -1,4 +1,6 @@
 body {
+  background-image: url('./images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg');
+  background-size: cover;
   font-size: 120%;
   font-family: Arial;
 }
@@ -11,16 +13,20 @@ button, input {
 table {
   width: 100%;
 }
-
+thead {
+  background-color: rgba(250, 235, 215, 0.39);
+}
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid black;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #dddddd86;
 }
+
+
 
 .error {
   color: red;
@@ -33,6 +39,7 @@ tr:nth-child(even) {
 }
 
 .total {
+  padding: 20px;
   font-size: 150%;
   text-decoration: underline;
 }
@@ -48,4 +55,8 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+#myChart {
+  background-color: rgba(240, 248, 255, 0.582);
 }
